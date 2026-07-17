@@ -1,113 +1,135 @@
 <div align="center">
 
-<img width="100%" src="https://raw.githubusercontent.com/zenhouke/zenhouke/main/assets/profile-header.svg" alt="Zenhouke — AI agents, infrastructure, and long-lived memory" />
+<img width="100%" src="https://raw.githubusercontent.com/zenhouke/zenhouke/main/assets/profile-header-amber.svg" alt="Zenhouke — curious mind, systems thinker, human first" />
 
 <br />
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=2800&pause=900&color=22D3EE&center=true&vCenter=true&width=760&lines=Building+agents+that+plan%2C+explain%2C+and+ask;Automating+boldly.+Keeping+humans+in+control;Go+%2F+Python+%2F+TypeScript+%2F+Infrastructure" alt="Animated introduction" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=2800&pause=900&color=F59E0B&center=true&vCenter=true&width=760&lines=Curious+by+default.+Pragmatic+by+choice;I+turn+complexity+into+clear%2C+controllable+systems;Always+learning.+Always+building.+Always+human-first" alt="Animated personal introduction" />
 
 <br />
 
-[![Followers](https://img.shields.io/github/followers/zenhouke?style=flat-square&logo=github&label=OPERATORS&color=0891b2)](https://github.com/zenhouke?tab=followers)
-![Profile Views](https://komarev.com/ghpvc/?username=zenhouke&style=flat-square&label=SIGNAL%20HITS&color=0f766e)
-![Focus](https://img.shields.io/badge/FOCUS-HUMAN--IN--CONTROL-2563eb?style=flat-square)
+![Profile Views](https://komarev.com/ghpvc/?username=zenhouke&style=flat-square&label=SIGNAL%20HITS&color=B45309)
+![Mindset](https://img.shields.io/badge/MINDSET-SYSTEMS%20THINKER-D97706?style=flat-square)
+![Mode](https://img.shields.io/badge/MODE-ALWAYS%20LEARNING-65A30D?style=flat-square)
 
 </div>
 
 ```text
-┌─ SYSTEM PROFILE ───────────────────────────────────────────────────┐
-│  ROLE      Builder of AI agent systems and operational tooling    │
-│  MISSION   Make automation observable, explainable, controllable  │
-│  SIGNAL    Agents propose → humans approve → systems execute      │
+┌─ PERSONAL CORE ────────────────────────────────────────────────────┐
+│  MIND      Curious, analytical, and drawn to complex systems      │
+│  STYLE     Calm thinking, clear structure, pragmatic execution    │
+│  VALUES    Clarity · Reliability · Autonomy · Human judgment      │
+│  MOTIVE    Make difficult things understandable and controllable  │
 └────────────────────────────────────────────────────────────────────┘
 ```
 
-## `> active_modules`
+## `> who_am_i`
+
+I am a **systems-minded builder** who enjoys finding order inside complexity.
+
+I like understanding how things work beneath the surface, connecting ideas across domains, and turning fuzzy problems into structures that people can reason about. I care less about technology for its own sake and more about whether it gives people **clarity, confidence, and control**.
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### [Ops Agent](https://github.com/zenhouke/ops-agent)
+### `01 // SYSTEMS THINKER`
 
-An AI-assisted operations console that unifies assets, terminals, planning, approvals, and command output. The agent reasons; the operator keeps final control.
-
-`Python` `FastAPI` `React` `Agent Systems`
+I naturally look for relationships, boundaries, feedback loops, and the hidden constraints shaping a problem.
 
 </td>
 <td width="50%" valign="top">
 
-### [MemFlow](https://github.com/zenhouke/MemFlow)
+### `02 // PRAGMATIC MAKER`
 
-A production-oriented Go SDK for lifelong agent memory with automated tiering, semantic compression, and retrieval built for long-running work.
-
-`Go` `LLM Memory` `Vector Search` `SDK`
+I value useful outcomes over ceremony: understand the problem, build the smallest dependable solution, then improve it.
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### [ubusclient](https://github.com/zenhouke/ubusclient)
+### `03 // HUMAN FIRST`
 
-A pure-Go OpenWrt `ubus` client backed by a deep protocol analysis—small, pragmatic infrastructure code with no opaque machinery.
-
-`Go` `OpenWrt` `RPC` `Networking`
+Powerful tools should expand human judgment—not hide decisions, remove context, or take control away from people.
 
 </td>
 <td width="50%" valign="top">
 
-### [Omniwatch](https://github.com/zenhouke/omniwatch)
+### `04 // PERPETUAL LEARNER`
 
-An exploration of scalable monitoring and alert-response workflows for operational systems that need clear signals and dependable action.
-
-`Go` `Monitoring` `Alerting` `Infrastructure`
+I stay curious, challenge my assumptions, and treat unfamiliar systems as invitations to explore rather than obstacles.
 
 </td>
 </tr>
 </table>
 
-## `> operating_doctrine`
+## `> languages_i_think_in`
+
+<table>
+<tr>
+<td align="center" width="33%">
+
+### Go
+
+![Go](https://img.shields.io/badge/Go-120F08?style=for-the-badge&logo=go&logoColor=F59E0B)
+
+**Systems · Infrastructure · SDKs**
+
+Precise, simple, concurrent.
+
+</td>
+<td align="center" width="33%">
+
+### Python
+
+![Python](https://img.shields.io/badge/Python-120F08?style=for-the-badge&logo=python&logoColor=FACC15)
+
+**Automation · AI · Backends**
+
+Expressive, versatile, fast-moving.
+
+</td>
+<td align="center" width="33%">
+
+### TypeScript
+
+![TypeScript](https://img.shields.io/badge/TypeScript-120F08?style=for-the-badge&logo=typescript&logoColor=FB923C)
+
+**Interfaces · Tooling · Experiences**
+
+Structured, interactive, product-minded.
+
+</td>
+</tr>
+</table>
+
+<div align="center">
+
+![React](https://img.shields.io/badge/React-120F08?style=flat-square&logo=react&logoColor=F59E0B)
+![FastAPI](https://img.shields.io/badge/FastAPI-120F08?style=flat-square&logo=fastapi&logoColor=A3E635)
+![Docker](https://img.shields.io/badge/Docker-120F08?style=flat-square&logo=docker&logoColor=FB923C)
+![Linux](https://img.shields.io/badge/Linux-120F08?style=flat-square&logo=linux&logoColor=FACC15)
+![Git](https://img.shields.io/badge/Git-120F08?style=flat-square&logo=git&logoColor=FB7185)
+
+</div>
+
+## `> operating_mode`
 
 ```yaml
-agent_power:        high
-human_authority:    final
-plans:              visible
-side_effects:       approval_gated
-command_output:     auditable
-failure_mode:       explain_then_recover
+curiosity:        always_on
+thinking:         systems_first
+execution:        pragmatic
+communication:    clear_and_direct
+quality_bar:      dependable_over_flashy
+human_judgment:   non_negotiable
+learning_status:  never_finished
 ```
-
-## `> toolchain`
-
-<div align="center">
-
-![Go](https://img.shields.io/badge/Go-07111F?style=for-the-badge&logo=go&logoColor=22D3EE)
-![Python](https://img.shields.io/badge/Python-07111F?style=for-the-badge&logo=python&logoColor=FACC15)
-![TypeScript](https://img.shields.io/badge/TypeScript-07111F?style=for-the-badge&logo=typescript&logoColor=60A5FA)
-![React](https://img.shields.io/badge/React-07111F?style=for-the-badge&logo=react&logoColor=22D3EE)
-![FastAPI](https://img.shields.io/badge/FastAPI-07111F?style=for-the-badge&logo=fastapi&logoColor=2DD4BF)
-![Docker](https://img.shields.io/badge/Docker-07111F?style=for-the-badge&logo=docker&logoColor=60A5FA)
-![Linux](https://img.shields.io/badge/Linux-07111F?style=for-the-badge&logo=linux&logoColor=FACC15)
-![Git](https://img.shields.io/badge/Git-07111F?style=for-the-badge&logo=git&logoColor=FB7185)
-
-</div>
-
-## `> telemetry`
-
-<div align="center">
-
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=zenhouke&show_icons=true&hide_border=true&bg_color=07111F&title_color=22D3EE&text_color=CBD5E1&icon_color=2DD4BF&rank_icon=github" alt="GitHub stats" />
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=zenhouke&layout=compact&hide_border=true&bg_color=07111F&title_color=22D3EE&text_color=CBD5E1&langs_count=8" alt="Top languages" />
-
-<img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=zenhouke&bg_color=07111F&color=94A3B8&line=22D3EE&point=2DD4BF&area=true&hide_border=true" alt="Contribution activity graph" />
-
-</div>
 
 ---
 
 <div align="center">
 
-### `MAKE THE AI POWERFUL // KEEP THE OPERATOR IN CONTROL`
+### `THINK DEEPLY // BUILD CLEARLY // STAY CURIOUS`
 
 </div>

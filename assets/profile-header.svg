@@ -1,0 +1,86 @@
+<svg width="1200" height="420" viewBox="0 0 1200 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="40" y1="20" x2="1160" y2="400" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07111F"/>
+      <stop offset="0.55" stop-color="#0A1525"/>
+      <stop offset="1" stop-color="#081C23"/>
+    </linearGradient>
+    <linearGradient id="cyan" x1="210" y1="100" x2="870" y2="330" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#67E8F9"/>
+      <stop offset="0.55" stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#2DD4BF"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(919 197) rotate(90) scale(245)">
+      <stop stop-color="#22D3EE" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" stroke="#56D9E8" stroke-opacity="0.075"/>
+    </pattern>
+    <filter id="softGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="panelClip"><rect x="30" y="30" width="1140" height="360" rx="20"/></clipPath>
+  </defs>
+
+  <rect width="1200" height="420" rx="24" fill="#040A12"/>
+  <rect x="18" y="18" width="1164" height="384" rx="26" fill="url(#bg)" stroke="#164E63" stroke-width="2"/>
+  <g clip-path="url(#panelClip)">
+    <rect x="30" y="30" width="1140" height="360" fill="url(#grid)"/>
+    <rect x="650" y="30" width="520" height="360" fill="url(#glow)"/>
+
+    <path d="M31 82H1169" stroke="#164E63"/>
+    <circle cx="58" cy="56" r="6" fill="#FB7185"/>
+    <circle cx="80" cy="56" r="6" fill="#FBBF24"/>
+    <circle cx="102" cy="56" r="6" fill="#34D399"/>
+    <text x="134" y="62" fill="#5EEAD4" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" letter-spacing="2">ZENHOUKE://AGENT-OPS</text>
+    <text x="1057" y="62" fill="#22D3EE" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">ONLINE</text>
+    <circle cx="1137" cy="56" r="5" fill="#2DD4BF" filter="url(#softGlow)">
+      <animate attributeName="opacity" values="1;.25;1" dur="2s" repeatCount="indefinite"/>
+    </circle>
+
+    <text x="72" y="154" fill="#94A3B8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16" letter-spacing="4">HUMAN-IN-CONTROL SYSTEMS</text>
+    <text x="67" y="235" fill="url(#cyan)" font-family="Arial Black, Impact, sans-serif" font-size="72" font-weight="900" letter-spacing="3">ZENHOUKE</text>
+    <text x="72" y="284" fill="#E2E8F0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="19">AI AGENTS  /  INFRASTRUCTURE  /  LONG-LIVED MEMORY</text>
+
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14">
+      <rect x="72" y="324" width="165" height="34" rx="6" fill="#082F49" stroke="#0E7490"/>
+      <text x="91" y="346" fill="#67E8F9">$ PLAN: VISIBLE</text>
+      <rect x="249" y="324" width="188" height="34" rx="6" fill="#0F2F2E" stroke="#0F766E"/>
+      <text x="268" y="346" fill="#5EEAD4">$ APPROVAL: HUMAN</text>
+      <rect x="449" y="324" width="176" height="34" rx="6" fill="#162238" stroke="#1D4ED8"/>
+      <text x="468" y="346" fill="#93C5FD">$ OUTPUT: AUDITED</text>
+    </g>
+
+    <g transform="translate(888 221)">
+      <circle r="108" stroke="#22D3EE" stroke-opacity="0.16" stroke-width="2"/>
+      <circle r="78" stroke="#22D3EE" stroke-opacity="0.22"/>
+      <circle r="48" fill="#071827" stroke="#5EEAD4" stroke-width="2"/>
+      <path d="M-23 -2L-8 13L24 -21" stroke="#5EEAD4" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="-92" cy="-52" r="8" fill="#22D3EE" filter="url(#softGlow)">
+        <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="9s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="72" cy="-30" r="5" fill="#2DD4BF"/>
+      <circle cx="-44" cy="65" r="5" fill="#60A5FA"/>
+      <path d="M-126 0H-58M58 0H126M0 -126V-58M0 58V126" stroke="#22D3EE" stroke-opacity="0.3" stroke-dasharray="4 6"/>
+    </g>
+
+    <g stroke="#22D3EE" stroke-opacity="0.35">
+      <path d="M996 132H1100L1138 170"/>
+      <path d="M1002 305H1098L1138 266"/>
+      <circle cx="1138" cy="170" r="3" fill="#22D3EE"/>
+      <circle cx="1138" cy="266" r="3" fill="#22D3EE"/>
+    </g>
+
+    <rect x="30" y="88" width="1140" height="2" fill="#22D3EE" opacity="0.14">
+      <animate attributeName="y" values="88;386;88" dur="7s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;.24;0" dur="7s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <path d="M42 380H306" stroke="#22D3EE" stroke-width="2"/>
+  <path d="M894 40H1158" stroke="#22D3EE" stroke-width="2"/>
+  <path d="M42 40H180" stroke="#2DD4BF" stroke-width="2"/>
+  <path d="M1020 380H1158" stroke="#2DD4BF" stroke-width="2"/>
+</svg>
